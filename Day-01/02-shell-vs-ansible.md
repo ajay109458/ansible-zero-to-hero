@@ -23,3 +23,25 @@ echo "hi"
 
 Easily and quickly scale the systems you automate through a modular design that supports a large range of operating systems, cloud platforms, and network devices.
 
+### Issues with Python 
+1. Python knowledge
+2. Maintenance
+3. Login to each machine (paramiko/fabric)
+
+### Ansible 
+1. Read inventory to understand the machine.
+2. Execute on the machine.
+3. Doesn't require strong configuraiton management.
+
+Ansible is not good if you have to trigger the automation. 
+
+
+Ansible --> Provisioning --> Terraform or Ansible. 
+
+Core Skill of Terraform -> Provisioning Infrastructure 
+Ansible ---> Config Management 
+
+### Command 
+```
+pip install ansible
+```
